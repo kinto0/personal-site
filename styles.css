@@ -1,0 +1,54 @@
+
+h1 {
+  font-family: Merriweather,Georgia,serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1C1C1C;
+}
+
+p {
+  font-family: Merriweather,Georgia,serif;
+  margin-top:0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+a {
+  opacity: 1;
+  transition: .3s;
+}
+
+body {
+  display: grid;
+  justify-items: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin:0px
+}
+
+a:hover {
+  opacity: .6;
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+  padding:2rem;
+  max-width: 700px;
+}
+
+.nu {
+  color: red;
+}
+
+.code {
+  font-family: "Fira Code","SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #1C1C1C;
+  line-height: 1.35;
+}
