@@ -28,7 +28,6 @@ body {
 
 a {
   opacity: 1;
-  /* transition: .3s; */
   color:red;
   text-decoration: none;
 }
